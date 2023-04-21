@@ -1,0 +1,68 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    font-family: 'fredoka', 'Arial';
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #E53170;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.description{
+text-align: center justify;
+}
+
+img{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #4AC1E3;
+    display: block;
+}
+
+
+/* UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+
+/* CARDS LAYOUT */
+
+.row{
+    margin: 20px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards{
+    width: 350px;
+    background-color: black;
+    color: white; 
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    padding: 16px;
+    display: block;
+    flex-direction: row;
+}
