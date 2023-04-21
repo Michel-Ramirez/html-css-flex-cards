@@ -37,6 +37,10 @@ a{
     display: block;
 }
 
+em{
+    font-size: 10px;
+}
+
 
 /* UTILITY */
 
@@ -65,4 +69,11 @@ a{
     padding: 16px;
     display: block;
     flex-direction: row;
+}
+
+/* FOOTER */
+
+.dev{
+    justify-content: center;
+    flex-wrap: wrap;
 }
